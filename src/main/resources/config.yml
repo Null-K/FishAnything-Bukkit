@@ -1,0 +1,17 @@
+# 钓鱼竿的名字
+fishing-rod-name: "神奇钓竿"
+
+# 是否进服/重生时自动给予
+auto-give: true
+
+# 物品黑名单，不能被钓起的物品
+# 物品材质可以在 https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html 查看
+item-blacklist:
+  - BEDROCK
+  - BARRIER
+
+# 实体黑名单，不能被钓起的实体
+# 实体名称可以在 https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html 查看
+entity-blacklist:
+  - ENDER_DRAGON
+  - WITHER
